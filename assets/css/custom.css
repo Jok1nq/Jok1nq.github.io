@@ -1,0 +1,12 @@
+/* Custom CSS for increasing font sizes */
+body {
+    font-size: 18px; /* Sets the base font size for the body element */
+}
+
+p {
+    font-size: 1.1rem; /* Increases the font size for all paragraph elements */
+}
+
+h1, h2, h3 {
+    font-size: 1.25rem; /* Increases the font size for all heading elements */
+}

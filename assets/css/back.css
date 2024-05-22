@@ -1,0 +1,32 @@
+/* 控制背景图像的尺寸和位置 */
+.resume-biography-3 {
+    background-color: black; /* 设置背景颜色 */
+    background-image: url('/assets/media/1.png'); /* 设置背景图像路径 */
+    background-size: contain; /* 设置背景图像按比例缩放，完整显示 */
+    background-position: center; /* 设置背景图像居中显示 */
+    background-repeat: no-repeat; /* 设置背景图像不重复 */
+    position: relative; /* 确保子元素的绝对定位相对于这个容器 */
+}
+
+/* 添加半透明黑色框的样式 */
+.content-with-overlay {
+    position: relative; /* 确保内部绝对定位元素相对于这个容器 */
+    padding: 20px; /* 添加内边距，使文字不紧贴框边缘 */
+}
+
+.content-with-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色 */
+    z-index: 1; /* 确保背景框在文字内容下方 */
+}
+
+.content-with-overlay > * {
+    position: relative;
+    z-index: 2; /* 确保文字内容在背景框上方 */
+    color: white; /* 使文字颜色为白色，更易阅读 */
+}
