@@ -153,5 +153,5 @@ education:
 
 ## About Me
 
-My name is Qiao Zhang and I am now an senior undergraduate student in Zhejiang University. I am also conducting scientific research at [Network SystEm Security & PrivAcy (NESA) Research Lab](https://nesa.zju.edu.cn/).<br/>
+My name is Qiao Zhang and I am now an undergraduate student in Zhejiang University, I expect to receive my BS degree in June of this year.<br/> I am also conducting scientific research at [Network SystEm Security & PrivAcy (NESA) Research Lab](https://nesa.zju.edu.cn/).<br/>
 I will start my Ph.D. study advised by [Dongdong She](https://cse.hkust.edu.hk/~dongdong/) at the Hong Kong University of Science and Technology this fall.
