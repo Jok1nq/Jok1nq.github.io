@@ -49,7 +49,7 @@ education:
     #   url: 'https://example.com'
   - area: BS @ Computer Science and Technology
     college: ckc
-    institution: Chu kochen honors college, Zhejiang University
+    institution: Chu Kochen honors College, Zhejiang University
     date_start: 2020-09-01
     date_end: 2024-06-30
     # summary: |
@@ -57,5 +57,5 @@ education:
 
 ## About Me
 
-I am now an undergraduate student at [Zhejiang University](https://www.zju.edu.cn/english/). I expect to receive my BS degree in June.<br/> I am also conducting scientific research at [Network SystEm Security & PrivAcy (NESA) Research Lab](https://nesa.zju.edu.cn/).<br/>
+I am now an undergraduate student at [Chu Kochen honors College](http://ckc.zju.edu.cn/ckcen/), [Zhejiang University](https://www.zju.edu.cn/english/). I expect to receive my BS degree in June.<br/> I am also conducting scientific research at [Network SystEm Security & PrivAcy (NESA) Research Lab](https://nesa.zju.edu.cn/).<br/>
 I will start my Ph.D. study advised by [Dongdong She](https://cse.hkust.edu.hk/~dongdong/) at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/) this fall.
