@@ -17,15 +17,15 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: CV
-        url: static/uploads/resume.pdf
+        url: uploads/CV Qiao Zhang.pdf
     design:
       css_class: dark
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          # filename: 123.jpg
+          # filename: stacked-peaks.svg
+          filename: 456.jpg
           filters:
             brightness: 1.0
           size: cover
