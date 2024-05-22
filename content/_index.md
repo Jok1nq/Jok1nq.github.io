@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: CV
-        url: uploads/CV Qiao Zhang.pdf
+        url: uploads/CV_Qiao Zhang.pdf
     design:
       css_class: dark
       background:
@@ -25,7 +25,7 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           # filename: stacked-peaks.svg
-          filename: 456.jpg
+          filename: 789.jpg
           filters:
             brightness: 1.0
           size: cover
@@ -33,66 +33,93 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📑 Featured Publications'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        + Chong Fu, Yuwen Pu, **Qiao Zhang**, Jiayu Pan, Jing Qiu, Xuhong Zhang, Yiming Wu, and Shouling Ji, SecretKeeper: Robust Vertical Federated Learning Against Label Inference Attacks, NSE 2023.
     design:
       columns: '1'
-  - block: collection
-    id: papers
+  - block: markdown
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: news
-    content:
-      title: Recent News
+      title: '🔰 Experience'
       subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      text: |-
+        + Research Assistant
+          + <a href="https://nesa.zju.edu.cn/" target="_blank">NESA Lab</a>
+          + Focus on system security, about Fuzzing & Root Cause Analysis
+          + Dec. 2022 - Present
+        + Chu Kochen honors College In-depth scientific research training project
+          + <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank">CKC</a> & <a href="https://nesa.zju.edu.cn/" target="_blank">NESA Lab</a>
+          + <i>Knowledge-driven Fuzzing Mutation Strategy Scheduling Method</i>
+          + Jun. 2022 - Dec. 2022
     design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: '🧩 Leadership, Hobbies and Volunteering'
+  #     subtitle: ''
+  #     text: |-
+  #       + Student Assistant at Student Affairs Department, Zhejiang University Mar. 2021 - Mar. 2023.
+  #       + Sports Events Participated, Zhejiang University
+  #         + Ranked Fourth in the Men’s 100m Freestyle Swimming Competition, Zhejiang University. Jun. 2022
+  #         + Served as the Chief Referee of Timing Team in Zhejiang University Track and Field Games. Sept. 2022
+  #   design:
+  #     columns: '1'
+
+
+
+
+
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: Recent News
+  #     subtitle: ''
+  #     text: ''
+  #     # Page type to display. E.g. post, talk, publication...
+  #     page_type: post
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: date-title-summary
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
