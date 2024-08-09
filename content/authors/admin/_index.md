@@ -57,4 +57,4 @@ education:
 
 ## About Me
 
-I am now an Ph.D. student advised by [Dongdong She](https://cse.hkust.edu.hk/~dongdong/) at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/). I received my BEn degree at [Chu Kochen honors College](http://ckc.zju.edu.cn/ckcen/), [Zhejiang University](https://www.zju.edu.cn/english/).
+I am now an Ph.D. student advised by [Dongdong She](https://cse.hkust.edu.hk/~dongdong/) at [the Hong Kong University of Science and Technology](https://hkust.edu.hk/). I received my bachelor’s degree at [Chu Kochen honors College](http://ckc.zju.edu.cn/ckcen/), [Zhejiang University](https://www.zju.edu.cn/english/).
