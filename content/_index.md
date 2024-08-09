@@ -47,7 +47,7 @@ sections:
         + Research Assistant
           + <a href="https://nesa.zju.edu.cn/" target="_blank">NESA Lab</a>
           + Focus on system security, about Fuzzing & Root Cause Analysis
-          + Dec. 2022 - Present
+          + Dec. 2022 - Aug. 2024
         + Chu Kochen honors College In-depth scientific research training project
           + <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank">CKC</a> & <a href="https://nesa.zju.edu.cn/" target="_blank">NESA Lab</a>
           + <i>Knowledge-driven Fuzzing Mutation Strategy Scheduling Method</i>
