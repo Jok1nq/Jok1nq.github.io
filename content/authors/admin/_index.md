@@ -57,5 +57,4 @@ education:
 
 ## About Me
 
-I am now an undergraduate student at [Chu Kochen honors College](http://ckc.zju.edu.cn/ckcen/), [Zhejiang University](https://www.zju.edu.cn/english/). I expect to receive my BS degree in June.<br/> I am also conducting scientific research at [Network SystEm Security & PrivAcy (NESA) Research Lab](https://nesa.zju.edu.cn/).<br/>
-I will start my Ph.D. study advised by [Dongdong She](https://cse.hkust.edu.hk/~dongdong/) at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/) this Fall.
+I am now an Ph.D. student advised by [Dongdong She](https://cse.hkust.edu.hk/~dongdong/) at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/). I received my BEn degree at [Chu Kochen honors College](http://ckc.zju.edu.cn/ckcen/), [Zhejiang University](https://www.zju.edu.cn/english/).
