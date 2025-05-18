@@ -54,9 +54,10 @@ jobs:
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v2
       with:
         path: ./public
+        retention-days: 1
 
   # Deploy website to GitHub Pages hosting
   deploy:
@@ -69,4 +70,11 @@ jobs:
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v3
+      uses: actions/deploy-pages@v2
+      continue-on-error: true
+    - name: Check deployment status
+      if: steps.deployment.outcome == 'failure'
+      run: |
+        echo "Deployment failed. Please check if GitHub Pages is enabled in repository settings."
+        echo "Visit: https://github.com/Jok1nq/Jok1nq.github.io/settings/pages"
+        exit 1
